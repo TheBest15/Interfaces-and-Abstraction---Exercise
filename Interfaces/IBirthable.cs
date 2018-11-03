@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PersonInfo.Interfaces
 {
-    interface IBirthable : IIdentifiable
+   public interface IBirthable : IIdentifiable
     {
         string Birthdate { get;}
     }
