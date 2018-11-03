@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PersonInfo.Interfaces
 {
-    interface IIdentifiable
+   public interface IIdentifiable
     {
         string Id { get;}
     }
